@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link id="favicon" rel="shortcut icon" type="image/png" href="Images/LOGO.png" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <title>DBC Boxing academy</title>
+</head>
+<body>
+    <div class="d-flex flex-column">
+        <nav class="navbar navbar-expand-md bg-navbar navbar-dark fixed-top">
+            <a id="Homelink" href="#">
+              <div class="logo-container d-flex justify-content-center align-items-center">
+                <img class="logo" src="Images/LOGO.png">
+              </div>
+              <a href="#" class="logoText">DBC</a>
+           </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse sliderTabs" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" id="Achievementslink" href="#">Achievements</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="Courseslink" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="Gallerylink" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="Contactlink" href="#">Contact</a>
+                </li>    
+              </ul>
+            </div>  
+          </nav>
+          <div class="d-flex justify-content-center align-items-center slider" id="Home">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>              
+                <!-- The slideshow -->
+                <div class="carousel-inner carouselMarginTop">
+                  <div class="carousel-item active">
+                    <img src="Images/photos/image8.jpeg" class="carouselImage">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/photos/image13.jpeg" class="carouselImage">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/photos/image2.jpeg" class="carouselImage">
+                  </div>
+                </div>               
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+          </div>
+          <div class="d-flex flex-column slider" id="Achievements"> 
+              <div class="d-flex align-items-center justify-content-center m-2">
+                <div class="title">Achievements</div>
+              </div>
+              <div class="cardGrid">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card m-3">
+                        <div class="content">
+                          <img class="cardimg" src="Images/photos/medal.jpeg">
+                          <div class="hover_content">
+                            <p class="m-2 text-center"><b>7</b> times State medalist and National invitation tournament Gold medalist</p>
+                          </div>
+                        </div>
+                      </div>    
+                  </div>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card m-3">
+                        <div class="content">
+                          <img class="cardimg" style="height:368px;object-fit: cover;" src="Images/photos/award.jpg">
+                          <div class="hover_content">
+                            <p class="m-2 text-center">Certified in sports coaching for Boxing in <b>NSNIS</b>, Kolkatta</p>
+                          </div>
+                        </div>
+                      </div>    
+                  </div>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card m-3">
+                        <div class="content">
+                          <img class="cardimg" style="height:368px;object-fit: cover;" src="Images/photos/image11.jpeg">
+                          <div class="hover_content">
+                            <p class="m-2 text-center"><b>15</b> State medals achieved by our students</p>
+                          </div>
+                        </div>
+                      </div>    
+                  </div>
+              </div>
+          </div>
+          <div class="d-flex flex-column slider" id="Courses">
+              <div class="d-flex align-items-center justify-content-center m-2">
+                <div class="title">Courses</div>
+              </div>
+              <div class="cardGrid">
+                  <div class="d-flex flex-column justify-content-center m-3 courseimg-container">
+                    <img class="courseimg" src="Images/Boxing/boxing.jpg">
+                    <div class="">Boxing training </div>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center m-3 courseimg-container">
+                    <img class="courseimg" src="Images/Boxing/cardiobox.jpg">
+                    <div class="">Cardio boxing </div>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center m-3 courseimg-container">
+                    <img class="courseimg" src="Images/Boxing/HIIT.jpeg">
+                    <div class="">HIIT training</div>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center m-3 courseimg-container">
+                    <img class="courseimg" src="Images/Boxing/PT.jpg">
+                    <div class="">Personal training </div>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center m-3 courseimg-container">
+                    <img class="courseimg" src="Images/Boxing/weighloss.jpg">
+                    <div class="">weight loss training </div>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center m-3 courseimg-container">
+                    <img class="courseimg" src="Images/Boxing/functional.jpg">
+                    <div class="">Functional training </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column slider" id="Gallery">
+            <div class="d-flex align-items-center justify-content-center m-2">
+              <div class="title">Gallery</div>
+            </div>
+            <div class="d-flex flex-row flex-wrap justify-content-around m-2">
+              <div class="galleryImg-container">
+                  <img class="galleryImg" src="Images/photos/image3.jpeg">
+              </div>
+              <div class="galleryImg-container">
+                  <img class="galleryImg" src="Images/photos/image21.jpeg">
+              </div>
+              <div class="galleryImg-container">
+                  <img class="galleryImg" src="Images/photos/image22.jpeg">
+              </div>
+              <div class="galleryImg-container">
+                  <img class="galleryImg" src="Images/photos/image12.jpeg">
+              </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <iframe class="video-container" src="https://www.youtube.com/embed/xK1kRstv6JY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="d-flex flex-column slider" id="Contact">
+            <div class="d-flex align-items-center justify-content-center m-2">
+              <div class="title">Contact</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-end">
+                  <div class="d-flex flex-column w-75">
+                    <div class="contact-text">Address :</div>
+                    <div class="contact-text">No.10/1 madam 1st lane, dr.Alagappa road purasaiwalkam ch-84 ( landmark near by Saleem briyani </div>
+                    <div class="contact-text">+91 97910 79516</div>
+                    <div class="d-flex flex-row">
+                      <a href="https://m.facebook.com/diwakarboxingclub/"><img class="contactBarand" src="Images/Brands/Facebook.png"></a>
+                      <a href="https://www.instagram.com/_b_o_x_y_/"><img class="contactBarand" src="Images/Brands/Instagram.png"></a>
+                      <a href="https://www.youtube.com/watch?v=xK1kRstv6JY&t=6s&ab_channel=DBCBOXINGCLUBCOACHDIWAKAR"><img class="contactBarand" src="Images/Brands/Youtube.png"></a>
+                      <a href="https://api.whatsapp.com/send?phone=918778607587&fbclid=IwAR27qfL2x_L3v07ns8B32MJdiHX0msfWq-qHW2ehoaY3ctj7HxxFGQraF3Q"><img class="contactBarand" src="Images/Brands/whatsapp.png"></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.8919412125601!2d80.25355703027445!3d13.08200000652998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265dff0a517a5%3A0xe5f302a9f3e6310b!2s84%2C%20Alagappa%20Rd%2C%20Purasaiwakkam%2C%20Chennai%2C%20Tamil%20Nadu%20600084!5e0!3m2!1sen!2sin!4v1619337559835!5m2!1sen!2sin" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center p-3 bg-navbar">
+            <div class="contact-text">Copyright @ DBC boxing academy | 2021</div>
+          </div>
+    </div>
+</body>
+<script>
+   function goToByScroll(id){
+          // Reove "link" from the ID
+        id = id.replace("link", "");
+          // Scroll
+        $('html,body').animate({
+            scrollTop: $("#"+id).offset().top - 70},
+            'slow');
+    }
+
+    $(".sliderTabs > ul > li > a").click(function(e) { 
+          // Prevent a page reload when a link is pressed
+        e.preventDefault(); 
+          // Call the scroll function
+        goToByScroll($(this).attr("id"));           
+    });
+</script>
+</html>
